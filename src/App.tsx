@@ -1,7 +1,7 @@
 import { Box, Flex, Image, chakra } from "@chakra-ui/react";
 import { H1, H2, H4 } from "./Typography";
 import ProPic from "./assets/propic.png";
-import SkillSection from "./UI/skill";
+import SkillSection from "./skill";
 
 export default function App() {
   return (
