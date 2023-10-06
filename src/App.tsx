@@ -10,7 +10,7 @@ export default function App() {
       justifyContent={"center"}
       alignItems={"center"}
     >
-      <H1 textAlign={"center"}>KM Khalid Saifullah</H1>
+      <H1 textAlign={"center"}>KM Khalid Saifullah | Software Engineer</H1>
     </Flex>
   );
 }
