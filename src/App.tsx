@@ -1,5 +1,5 @@
 import { Flex } from "@chakra-ui/react";
-import { H1, H2 } from "./Typography";
+import { H1 } from "./Typography";
 
 export default function App() {
   return (
@@ -10,7 +10,7 @@ export default function App() {
       justifyContent={"center"}
       alignItems={"center"}
     >
-      <H1 textAlign={"center"}>KM Khalid Saifullah</H1>
+      <H1 textAlign={"center"}>KM Khalid Saifullah | Software Engineer</H1>
     </Flex>
   );
 }
