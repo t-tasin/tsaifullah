@@ -1,8 +1,7 @@
 import { Box, Flex, Image, chakra } from "@chakra-ui/react";
-import { H1, H2, H3, H4 } from "./Typography";
+import { H1, H2, H4 } from "./Typography";
 import ProPic from "./assets/propic.png";
-import { FaPython, FaCode } from "react-icons/fa";
-import { SiCplusplus } from "react-icons/si";
+import SkillSection from "./UI/skill";
 
 export default function App() {
   return (
@@ -97,74 +96,7 @@ export default function App() {
           stellar 99.99% uptime and ensuring impeccable software integrity.
         </H4>
       </Box>
-      <H2 textAlign={"center"} margin={10}>
-        Skills
-      </H2>
-      <H4
-        fontWeight={600}
-        gap={1}
-        my={0}
-        display="flex"
-        alignItems="center"
-        textAlign="center"
-        height="fit-content"
-      >
-        <FaCode />
-        <chakra.span>Programming Language</chakra.span>
-      </H4>
-
-      <Flex marginTop={6} wrap={"wrap"} gap={4}>
-        <Box
-          bgColor={"gray.100"}
-          borderRadius={"5px"}
-          width={"fit-content"}
-          padding={1.5}
-        >
-          <H4
-            display="flex"
-            alignItems="center"
-            textAlign="center"
-            height="fit-content"
-            fontSize={"14px"}
-            lineHeight={"24px"}
-            fontWeight={600}
-            gap={1}
-            my={0}
-          >
-            <Image
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
-              width={"24px"}
-              height={"auto"}
-            />
-            <chakra.span>Python</chakra.span>
-          </H4>
-        </Box>
-        <Box
-          bgColor={"gray.100"}
-          borderRadius={"5px"}
-          width={"fit-content"}
-          padding={1.5}
-        >
-          <H4
-            display="flex"
-            alignItems="center"
-            textAlign="center"
-            height="fit-content"
-            fontSize={"14px"}
-            lineHeight={"24px"}
-            fontWeight={600}
-            gap={1}
-            my={0}
-          >
-            <Image
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
-              width={"24px"}
-              height={"auto"}
-            />
-            <chakra.span>C++</chakra.span>
-          </H4>
-        </Box>
-      </Flex>
+      <SkillSection />
     </Box>
   );
 }
