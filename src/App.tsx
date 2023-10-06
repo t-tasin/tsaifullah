@@ -1,6 +1,8 @@
-import { Box, Flex, Image } from "@chakra-ui/react";
-import { H1, H2, H4 } from "./Typography";
+import { Box, Flex, Image, chakra } from "@chakra-ui/react";
+import { H1, H2, H3, H4 } from "./Typography";
 import ProPic from "./assets/propic.png";
+import { FaPython, FaCode } from "react-icons/fa";
+import { SiCplusplus } from "react-icons/si";
 
 export default function App() {
   return (
@@ -15,7 +17,7 @@ export default function App() {
         justifyContent={"center"}
         alignItems={"center"}
       >
-        <H2 textAlign={"center"}>KM Khalid Saifullah</H2>
+        <H1 textAlign={"center"}>KM Khalid Saifullah</H1>
       </Flex>
       <Flex
         marginTop={24}
@@ -56,6 +58,112 @@ export default function App() {
             />
           </Box>
         </Flex>
+      </Flex>
+      <H2 margin={10} textAlign={"center"}>
+        Experience
+      </H2>
+      <Box>
+        <H4 fontWeight={600}>
+          <chakra.span>Software Engineer Intern | </chakra.span>
+          <chakra.span>Jomee Jomaa Inc.</chakra.span>
+        </H4>
+        <H4 fontSize={"16px"}>May 2023 - Present</H4>
+        <H4 fontSize={"16px"} lineHeight={"20px"}>
+          During my tenure as a Software Engineer Intern at Jomee Jomaa Inc. in
+          Wilmington, Delaware, I fortified platform security by devising secret
+          tokens, negating password storage, and crafting related APIs with
+          Django Rest Framework. I streamlined user transactions by introducing
+          the "Cash Balance" feature for quick property purchases and bank
+          transfers. I enhanced user experience by designing a responsive
+          profile page using ReactJS and Tailwind UI, integrating a one-tap
+          "Offering" slider on the homepage, and incorporating a secure,
+          time-bound OTP validation system.
+        </H4>
+      </Box>
+      <Box marginTop={8}>
+        <H4 fontWeight={600}>
+          <chakra.span>Software Development Intern | </chakra.span>
+          <chakra.span>Shiree Pvt. Ltd.</chakra.span>
+        </H4>
+        <H4 fontSize={"16px"}>January 2023 - April 2023</H4>
+        <H4 fontSize={"16px"} lineHeight={"20px"}>
+          As a Software Developer Intern at Shiree Pvt. Ltd., I spearheaded the
+          creation of a user-centric dashboard in ReactJS, simplifying the
+          hiring journey. My backend contributions, anchored in NodeJS and
+          MongoDB, facilitated advanced data queries and robust statistics. I
+          harnessed D3.js to integrate rich data visualization tools, delivering
+          sharp analytics for recruiters. Committed to excellence, I conducted
+          comprehensive tests across the platform using Jest, achieving a
+          stellar 99.99% uptime and ensuring impeccable software integrity.
+        </H4>
+      </Box>
+      <H2 textAlign={"center"} margin={10}>
+        Skills
+      </H2>
+      <H4
+        fontWeight={600}
+        gap={1}
+        my={0}
+        display="flex"
+        alignItems="center"
+        textAlign="center"
+        height="fit-content"
+      >
+        <FaCode />
+        <chakra.span>Programming Language</chakra.span>
+      </H4>
+
+      <Flex marginTop={6} wrap={"wrap"} gap={4}>
+        <Box
+          bgColor={"gray.100"}
+          borderRadius={"5px"}
+          width={"fit-content"}
+          padding={1.5}
+        >
+          <H4
+            display="flex"
+            alignItems="center"
+            textAlign="center"
+            height="fit-content"
+            fontSize={"14px"}
+            lineHeight={"24px"}
+            fontWeight={600}
+            gap={1}
+            my={0}
+          >
+            <Image
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+              width={"24px"}
+              height={"auto"}
+            />
+            <chakra.span>Python</chakra.span>
+          </H4>
+        </Box>
+        <Box
+          bgColor={"gray.100"}
+          borderRadius={"5px"}
+          width={"fit-content"}
+          padding={1.5}
+        >
+          <H4
+            display="flex"
+            alignItems="center"
+            textAlign="center"
+            height="fit-content"
+            fontSize={"14px"}
+            lineHeight={"24px"}
+            fontWeight={600}
+            gap={1}
+            my={0}
+          >
+            <Image
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
+              width={"24px"}
+              height={"auto"}
+            />
+            <chakra.span>C++</chakra.span>
+          </H4>
+        </Box>
       </Flex>
     </Box>
   );

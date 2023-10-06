@@ -5,7 +5,7 @@ type HeadingProps = React.ComponentProps<typeof Heading>;
 export const H1 = (props: HeadingProps) => (
   <Heading
     as="h1"
-    fontSize="44px"
+    fontSize="48px"
     lineHeight="46px"
     fontWeight={700}
     {...props}
