@@ -1,5 +1,5 @@
 import { Flex } from "@chakra-ui/react";
-import { H1 } from "./Typography";
+import { H1, H2 } from "./Typography";
 
 export default function App() {
   return (
