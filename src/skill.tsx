@@ -1,10 +1,7 @@
-import sqlLogo from "/Users/tasin/Desktop/CodeBase.nosync/Personal Website/tsaifullah/src/assets/sql.svg";
+import sqlLogo from "./assets/sql.svg";
 import { FaCode } from "react-icons/fa";
 import { Box, Flex, Image, chakra } from "@chakra-ui/react";
-import {
-  H2,
-  H4,
-} from "/Users/tasin/Desktop/CodeBase.nosync/Personal Website/tsaifullah/src/Typography";
+import { H2, H4 } from "./Typography";
 
 export default function Skill() {
   return (
