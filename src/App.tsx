@@ -24,14 +24,15 @@ export default function App() {
         <H1 textAlign={"center"}>KM Khalid Saifullah</H1>
       </Flex>
       <Flex
-        marginTop={24}
+        marginTop={{ base: 8, lg: 24 }}
         width={"100%"}
         direction={{ base: "column", lg: "row" }}
       >
         <Box
           width={{ base: "100%", lg: "60%" }}
-          paddingTop={8}
+          paddingTop={{ base: 4, lg: 8 }}
           paddingRight={6}
+          marginBottom={{ base: 6, lg: 0 }}
         >
           <H1 marginBottom={4}>Hey, This is Tasin</H1>
           <H4>
