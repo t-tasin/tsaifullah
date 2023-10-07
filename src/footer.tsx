@@ -1,4 +1,4 @@
-import { Box, Flex, Image } from "@chakra-ui/react";
+import { Box, Flex, Image, Link } from "@chakra-ui/react";
 import { IoMdMail } from "react-icons/io";
 import { H5 } from "./Typography";
 
@@ -13,6 +13,8 @@ export default function Footer() {
           height="fit-content"
           width={"50%"}
           gap={1.5}
+          as={Link}
+          href="mailto:tasin0.net@gmail.com"
         >
           <IoMdMail />
           <H5>tasin0.net@gmail.com</H5>
@@ -24,15 +26,18 @@ export default function Footer() {
           alignItems={"center"}
           gap={2.5}
         >
-          <Image
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
-            width={"24px"}
-          />
-
-          <Image
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
-            width={"24px"}
-          />
+          <Link href="https://www.linkedin.com/in/k-tasin/">
+            <Image
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
+              width={"24px"}
+            />
+          </Link>
+          <Link href="https://github.com/t-tasin">
+            <Image
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+              width={"24px"}
+            />
+          </Link>
         </Box>
       </Flex>
     </Box>
