@@ -15,7 +15,7 @@ export default function App() {
         <Flex
           width={"100%"}
           height={"100px"}
-          bgColor={"gray.100"}
+          //bgColor={"gray.100"}
           justifyContent={"center"}
           alignItems={"center"}
         >
@@ -35,7 +35,7 @@ export default function App() {
             alignItems={"center"}
           >
             <Box width={"fit-content"} position={"relative"}>
-              <Box
+              {/* <Box
                 borderRadius={"50%"}
                 bgColor={"gray.100"}
                 width={"50px"}
@@ -44,9 +44,9 @@ export default function App() {
                 top={-10}
                 right={-5}
                 zIndex={-1}
-              />
+              /> */}
               <Image src={ProPic} borderRadius="full" boxSize="220px" />
-              <Box
+              {/* <Box
                 borderRadius={"50%"}
                 bgColor={"gray.100"}
                 width={"120px"}
@@ -55,7 +55,7 @@ export default function App() {
                 bottom={-5}
                 left={-20}
                 zIndex={-1}
-              />
+              /> */}
             </Box>
           </Flex>
           <Box
