@@ -35,10 +35,11 @@ export default function ProjectPizza() {
             />
           </Center>
           <Stack>
-            <Heading size="md">AI GYM Trainer</Heading>
+            <Heading size="md">Computerized Pizza Delivery System</Heading>
             <H6>
-              A real-time Python tool leveraging computer vision to track and
-              visualize exercise progress via webcam input.
+              A C++ OOP solution that streamlines pizza delivery through
+              efficient order and driver management using advanced data
+              structures.
             </H6>
             <Flex marginTop={3} wrap={"wrap"} gap={2.5}>
               <Box
@@ -59,11 +60,11 @@ export default function ProjectPizza() {
                   my={0}
                 >
                   <Image
-                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
                     width={"16px"}
                     height={"auto"}
                   />
-                  <chakra.span>Python</chakra.span>
+                  <chakra.span>C++</chakra.span>
                 </H4>
               </Box>
               <Box
@@ -83,12 +84,7 @@ export default function ProjectPizza() {
                   gap={1}
                   my={0}
                 >
-                  <Image
-                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg"
-                    width={"16px"}
-                    height={"auto"}
-                  />
-                  <chakra.span>NumPy</chakra.span>
+                  <chakra.span>Data Structures & Algorithm</chakra.span>
                 </H4>
               </Box>
               <Box
@@ -108,72 +104,7 @@ export default function ProjectPizza() {
                   gap={1}
                   my={0}
                 >
-                  <Image
-                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg"
-                    width={"16px"}
-                    height={"auto"}
-                  />
-                  <chakra.span>OpenCV</chakra.span>
-                </H4>
-              </Box>
-              <Box
-                bgColor={"gray.100"}
-                borderRadius={"5px"}
-                width={"fit-content"}
-                padding={1.5}
-              >
-                <H4
-                  display="flex"
-                  alignItems="center"
-                  textAlign="center"
-                  height="fit-content"
-                  fontSize={"12px"}
-                  lineHeight={"16px"}
-                  fontWeight={600}
-                  gap={1}
-                  my={0}
-                >
-                  <chakra.span>Mediapipe</chakra.span>
-                </H4>
-              </Box>
-              <Box
-                bgColor={"gray.100"}
-                borderRadius={"5px"}
-                width={"fit-content"}
-                padding={1.5}
-              >
-                <H4
-                  display="flex"
-                  alignItems="center"
-                  textAlign="center"
-                  height="fit-content"
-                  fontSize={"12px"}
-                  lineHeight={"16px"}
-                  fontWeight={600}
-                  gap={1}
-                  my={0}
-                >
-                  <chakra.span>Computer Vision</chakra.span>
-                </H4>
-              </Box>
-              <Box
-                bgColor={"gray.100"}
-                borderRadius={"5px"}
-                width={"fit-content"}
-                padding={1.5}
-              >
-                <H4
-                  display="flex"
-                  alignItems="center"
-                  textAlign="center"
-                  height="fit-content"
-                  fontSize={"12px"}
-                  lineHeight={"16px"}
-                  fontWeight={600}
-                  gap={1}
-                  my={0}
-                >
-                  <chakra.span>Image Processing</chakra.span>
+                  <chakra.span>OOP</chakra.span>
                 </H4>
               </Box>
             </Flex>
@@ -186,7 +117,7 @@ export default function ProjectPizza() {
           <Button
             as={Link}
             width={"50%"}
-            href="https://github.com/t-tasin/AI-GYM-Trainer"
+            href="https://github.com/t-tasin/automated_pizza_delivery"
           >
             <H4
               display="flex"
@@ -218,22 +149,24 @@ export default function ProjectPizza() {
                 />
               </Center>
               <ModalHeader>
-                AI GYM Trainer <H7>October 2022</H7>
+                Computerized Pizza Delivery System <H7>December 2022</H7>
               </ModalHeader>
               <ModalCloseButton />
-              <ModalBody>
+              <ModalBody paddingBottom={4}>
                 <H6>
-                  Harnessing the power of computer vision and pose estimation,
-                  the AI-GYM Trainer is a dynamic Python application tailored to
-                  monitor exercise progress in real-time. Integrating OpenCV and
-                  Mediapipe, it processes live webcam footage, detecting body
-                  poses, calculating joint angles, and tracking repetitions –
-                  offering users an immediate visual on their workout
-                  performance. Its modular architecture, consisting of a video
-                  input processor and a pose detector, ensures efficient
-                  performance, while the adaptability of the framework enables
-                  tracking of varied exercises. Dive deeper into its workings or
-                  customize it further here.
+                  Utilizing C++, Object-Oriented Programming, and Data
+                  Structures, I created the "Dominato's Computerized Delivery
+                  System" to optimize the pizza delivery process for
+                  restaurants. The system efficiently manages orders, delivery
+                  drivers, and delivery tracking using design patterns for
+                  scalability. Notably, I incorporated a doubly-linked list with
+                  a queue data structure, achieving a time efficiency boost of
+                  O(n) for operations over traditional array or singly linked
+                  list implementations. This solution includes modules to manage
+                  time logs, orders, driver activities, and restaurant
+                  operations, offering a seamless integration into existing
+                  restaurant management systems, thereby enhancing efficiency
+                  and user experience.
                 </H6>
                 <H5 fontSize={"14px"} marginTop={3}>
                   Techstack:{" "}
@@ -257,11 +190,11 @@ export default function ProjectPizza() {
                       my={0}
                     >
                       <Image
-                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
                         width={"16px"}
                         height={"auto"}
                       />
-                      <chakra.span>Python</chakra.span>
+                      <chakra.span>C++</chakra.span>
                     </H4>
                   </Box>
                   <Box
@@ -281,12 +214,7 @@ export default function ProjectPizza() {
                       gap={1}
                       my={0}
                     >
-                      <Image
-                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg"
-                        width={"16px"}
-                        height={"auto"}
-                      />
-                      <chakra.span>NumPy</chakra.span>
+                      <chakra.span>Data Structures & Algorithm</chakra.span>
                     </H4>
                   </Box>
                   <Box
@@ -306,76 +234,11 @@ export default function ProjectPizza() {
                       gap={1}
                       my={0}
                     >
-                      <Image
-                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg"
-                        width={"16px"}
-                        height={"auto"}
-                      />
-                      <chakra.span>OpenCV</chakra.span>
-                    </H4>
-                  </Box>
-                  <Box
-                    bgColor={"gray.100"}
-                    borderRadius={"5px"}
-                    width={"fit-content"}
-                    padding={1.5}
-                  >
-                    <H4
-                      display="flex"
-                      alignItems="center"
-                      textAlign="center"
-                      height="fit-content"
-                      fontSize={"12px"}
-                      lineHeight={"16px"}
-                      fontWeight={600}
-                      gap={1}
-                      my={0}
-                    >
-                      <chakra.span>Mediapipe</chakra.span>
-                    </H4>
-                  </Box>
-                  <Box
-                    bgColor={"gray.100"}
-                    borderRadius={"5px"}
-                    width={"fit-content"}
-                    padding={1.5}
-                  >
-                    <H4
-                      display="flex"
-                      alignItems="center"
-                      textAlign="center"
-                      height="fit-content"
-                      fontSize={"12px"}
-                      lineHeight={"16px"}
-                      fontWeight={600}
-                      gap={1}
-                      my={0}
-                    >
-                      <chakra.span>Computer Vision</chakra.span>
-                    </H4>
-                  </Box>
-                  <Box
-                    bgColor={"gray.100"}
-                    borderRadius={"5px"}
-                    width={"fit-content"}
-                    padding={1.5}
-                  >
-                    <H4
-                      display="flex"
-                      alignItems="center"
-                      textAlign="center"
-                      height="fit-content"
-                      fontSize={"12px"}
-                      lineHeight={"16px"}
-                      fontWeight={600}
-                      gap={1}
-                      my={0}
-                    >
-                      <chakra.span>Image Processing</chakra.span>
+                      <chakra.span>OOP</chakra.span>
                     </H4>
                   </Box>
                 </Flex>
-                <Link href="https://github.com/t-tasin/AI-GYM-Trainer">
+                <Link href="https://github.com/t-tasin/automated_pizza_delivery">
                   <Button width={"100%"}>
                     <H4
                       display="flex"

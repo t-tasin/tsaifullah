@@ -202,7 +202,7 @@ export default function ProjectFace() {
                 Automated Classroom Attendance System <H7>September 2022</H7>
               </ModalHeader>
               <ModalCloseButton />
-              <ModalBody>
+              <ModalBody paddingBottom={4}>
                 <H6>
                   Utilizing face recognition technology, Classroom Attendance is
                   an innovative Python application designed to automate student

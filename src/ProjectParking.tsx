@@ -242,7 +242,7 @@ export default function ProjectParking() {
                 Live parking Availability Finder <H7>October 2022</H7>
               </ModalHeader>
               <ModalCloseButton />
-              <ModalBody>
+              <ModalBody paddingBottom={4}>
                 <H6>
                   Live Parking is a Python application leveraging computer
                   vision to track real-time parking availability. By processing

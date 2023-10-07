@@ -221,7 +221,7 @@ export default function ProjectGYM() {
                 AI GYM Trainer <H7>October 2022</H7>
               </ModalHeader>
               <ModalCloseButton />
-              <ModalBody>
+              <ModalBody paddingBottom={4}>
                 <H6>
                   Harnessing the power of computer vision and pose estimation,
                   the AI-GYM Trainer is a dynamic Python application tailored to
