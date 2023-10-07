@@ -3,6 +3,7 @@ import { H1, H2, H4 } from "./Typography";
 import ProPic from "./assets/propic.png";
 import SkillSection from "./skill";
 import Footer from "./footer";
+import ProjectGYM from "./ProjectGYM";
 
 export default function App() {
   return (
@@ -98,6 +99,12 @@ export default function App() {
         </H4>
       </Box>
       <SkillSection />
+      <H2 textAlign={"center"} margin={10}>
+        Projects
+      </H2>
+      <Flex width={"100%"} justifyContent={"space-between"} wrap={"wrap"}>
+        <ProjectGYM />
+      </Flex>
       <Footer />
     </Box>
   );
