@@ -1,6 +1,6 @@
 import { Box, Flex, Image, Link } from "@chakra-ui/react";
 import { IoMdMail } from "react-icons/io";
-import { H5 } from "./Typography";
+import { H5 } from "./typography";
 
 export default function Footer() {
   return (

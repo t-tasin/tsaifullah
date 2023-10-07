@@ -19,7 +19,7 @@ import {
   chakra,
   Link,
 } from "@chakra-ui/react";
-import { H4, H5, H6, H7 } from "./Typography";
+import { H4, H5, H6, H7 } from "./typography";
 
 export default function ProjectParking() {
   const { isOpen, onOpen, onClose } = useDisclosure();

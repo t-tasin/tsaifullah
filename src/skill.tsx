@@ -5,7 +5,7 @@ import { FaCode } from "react-icons/fa";
 import { AiFillCode } from "react-icons/ai";
 import { BsFileEarmarkMedicalFill } from "react-icons/bs";
 import { Box, Flex, Image, chakra } from "@chakra-ui/react";
-import { H2, H4 } from "./Typography";
+import { H2, H4 } from "./typography";
 
 export default function Skill() {
   return (

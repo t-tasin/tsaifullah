@@ -1,4 +1,5 @@
 import { Heading } from "@chakra-ui/react";
+import "@fontsource/rubik";
 
 type HeadingProps = React.ComponentProps<typeof Heading>;
 
