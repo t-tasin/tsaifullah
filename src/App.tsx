@@ -4,6 +4,9 @@ import ProPic from "./assets/propic.png";
 import SkillSection from "./skill";
 import Footer from "./footer";
 import ProjectGYM from "./ProjectGYM";
+import ProjectFace from "./ProjectFace";
+import ProjectParking from "./ProjectParking";
+import ProjectPizza from "./ProjectPizza";
 
 export default function App() {
   return (
@@ -102,8 +105,11 @@ export default function App() {
       <H2 textAlign={"center"} margin={10}>
         Projects
       </H2>
-      <Flex width={"100%"} justifyContent={"space-between"} wrap={"wrap"}>
+      <Flex width={"100%"} justifyContent={"center"} wrap={"wrap"} gap={8}>
         <ProjectGYM />
+        <ProjectFace />
+        <ProjectParking />
+        <ProjectPizza />
       </Flex>
       <Footer />
     </Box>

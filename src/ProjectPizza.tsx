@@ -21,7 +21,7 @@ import {
 } from "@chakra-ui/react";
 import { H4, H5, H6, H7 } from "./Typography";
 
-export default function ProjectGYM() {
+export default function ProjectPizza() {
   const { isOpen, onOpen, onClose } = useDisclosure();
   return (
     <Box>
