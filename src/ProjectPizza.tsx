@@ -110,7 +110,7 @@ export default function ProjectPizza() {
             </Flex>
           </Stack>
         </CardBody>
-        <CardFooter width={"100%"} gap={3}>
+        <CardFooter width={"100%"} gap={3} paddingTop={5}>
           <Button onClick={onOpen} width={"50%"}>
             Details
           </Button>

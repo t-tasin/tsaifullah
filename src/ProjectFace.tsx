@@ -160,7 +160,7 @@ export default function ProjectFace() {
             </Flex>
           </Stack>
         </CardBody>
-        <CardFooter width={"100%"} gap={3}>
+        <CardFooter width={"100%"} gap={3} paddingTop={0}>
           <Button onClick={onOpen} width={"50%"}>
             Details
           </Button>

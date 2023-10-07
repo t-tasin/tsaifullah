@@ -27,23 +27,8 @@ export default function App() {
           direction={{ base: "column", lg: "row" }}
           paddingLeft={{ base: 6, lg: 0 }}
           paddingRight={{ base: 6, lg: 0 }}
+          gap={5}
         >
-          <Box
-            width={{ base: "100%", lg: "60%" }}
-            paddingTop={{ base: 4, lg: 8 }}
-            paddingRight={6}
-            marginBottom={{ base: 6, lg: 0 }}
-          >
-            <H1 marginBottom={6}>Hey, This is Tasin</H1>
-            <H4>
-              I am a Junior at The College of Wooster majoring in Computer
-              Science and Business Economics, I am deeply intrigued by the power
-              of emerging technologies to shape our future. My academic pursuits
-              lie at the intersection of tech and economics, where I aim to
-              leverage interdisciplinary approaches to improve social welfare
-              and quality of life.
-            </H4>
-          </Box>
           <Flex
             width={{ base: "100%", lg: "40%" }}
             justifyContent={"center"}
@@ -56,8 +41,8 @@ export default function App() {
                 width={"50px"}
                 height={"50px"}
                 position={"absolute"}
-                top={0}
-                left={-10}
+                top={-10}
+                right={-5}
                 zIndex={-1}
               />
               <Image src={ProPic} borderRadius="full" boxSize="220px" />
@@ -68,11 +53,27 @@ export default function App() {
                 height={"120px"}
                 position={"absolute"}
                 bottom={-5}
-                right={-20}
+                left={-20}
                 zIndex={-1}
               />
             </Box>
           </Flex>
+          <Box
+            width={{ base: "100%", lg: "60%" }}
+            paddingTop={{ base: 4, lg: 8 }}
+            paddingRight={6}
+            marginBottom={{ base: 6, lg: 0 }}
+          >
+            <H1 marginBottom={6}>Hey, This is Tasin</H1>
+            <H4 fontSize={"16px"}>
+              I am a Junior at The College of Wooster majoring in Computer
+              Science and Business Economics, I am deeply intrigued by the power
+              of emerging technologies to shape our future. My academic pursuits
+              lie at the intersection of tech and economics, where I aim to
+              leverage interdisciplinary approaches to improve social welfare
+              and quality of life.
+            </H4>
+          </Box>
         </Flex>
         <H2 margin={10} textAlign={"center"}>
           Experience
