@@ -11,11 +11,7 @@ import ProjectPizza from "./ProjectPizza";
 export default function App() {
   return (
     <Flex justifyContent={"center"}>
-      <Flex
-        width={{ base: "100%", lg: "800px" }}
-        // alignItems={"center"}
-        direction={"column"}
-      >
+      <Flex width={{ base: "100%", lg: "600px" }} direction={"column"}>
         <Flex
           width={"100%"}
           height={"100px"}
@@ -29,6 +25,8 @@ export default function App() {
           marginTop={{ base: 8, lg: 24 }}
           width={"100%"}
           direction={{ base: "column", lg: "row" }}
+          paddingLeft={{ base: 6, lg: 0 }}
+          paddingRight={{ base: 6, lg: 0 }}
         >
           <Box
             width={{ base: "100%", lg: "60%" }}
@@ -36,7 +34,7 @@ export default function App() {
             paddingRight={6}
             marginBottom={{ base: 6, lg: 0 }}
           >
-            <H1 marginBottom={4}>Hey, This is Tasin</H1>
+            <H1 marginBottom={6}>Hey, This is Tasin</H1>
             <H4>
               I am a Junior at The College of Wooster majoring in Computer
               Science and Business Economics, I am deeply intrigued by the power
@@ -79,12 +77,14 @@ export default function App() {
         <H2 margin={10} textAlign={"center"}>
           Experience
         </H2>
-        <Box>
-          <H4 fontWeight={600}>
+        <Box paddingLeft={{ base: 6, lg: 0 }} paddingRight={{ base: 6, lg: 0 }}>
+          <H4 fontSize={"20px"} fontWeight={600} marginBottom={1}>
             <chakra.span>Software Engineer Intern | </chakra.span>
             <chakra.span>Jomee Jomaa Inc.</chakra.span>
           </H4>
-          <H4 fontSize={"16px"}>May 2023 - Present</H4>
+          <H4 fontSize={"16px"} marginBottom={2.5} color={"gray.500"}>
+            May 2023 - Present
+          </H4>
           <H4 fontSize={"16px"} lineHeight={"20px"}>
             During my tenure as a Software Engineer Intern at Jomee Jomaa Inc.
             in Wilmington, Delaware, I fortified platform security by devising
@@ -97,12 +97,18 @@ export default function App() {
             secure, time-bound OTP validation system.
           </H4>
         </Box>
-        <Box marginTop={8}>
-          <H4 fontWeight={600}>
+        <Box
+          marginTop={8}
+          paddingLeft={{ base: 6, lg: 0 }}
+          paddingRight={{ base: 6, lg: 0 }}
+        >
+          <H4 fontWeight={600} fontSize={"20px"} marginBottom={1}>
             <chakra.span>Software Development Intern | </chakra.span>
             <chakra.span>Shiree Pvt. Ltd.</chakra.span>
           </H4>
-          <H4 fontSize={"16px"}>January 2023 - April 2023</H4>
+          <H4 fontSize={"16px"} marginBottom={2.5} color={"gray.500"}>
+            January 2023 - April 2023
+          </H4>
           <H4 fontSize={"16px"} lineHeight={"20px"}>
             As a Software Developer Intern at Shiree Pvt. Ltd., I spearheaded
             the creation of a user-centric dashboard in ReactJS, simplifying the
@@ -115,11 +121,20 @@ export default function App() {
             integrity.
           </H4>
         </Box>
-        <SkillSection />
+        <Box paddingLeft={{ base: 6, lg: 0 }} paddingRight={{ base: 6, lg: 0 }}>
+          <SkillSection />
+        </Box>
         <H2 textAlign={"center"} margin={10}>
           Projects
         </H2>
-        <Flex width={"100%"} justifyContent={"center"} wrap={"wrap"} gap={8}>
+        <Flex
+          width={"100%"}
+          justifyContent={"center"}
+          wrap={"wrap"}
+          gap={8}
+          paddingLeft={{ base: 6, lg: 0 }}
+          paddingRight={{ base: 6, lg: 0 }}
+        >
           <ProjectGYM />
           <ProjectFace />
           <ProjectParking />

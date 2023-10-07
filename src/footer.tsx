@@ -1,6 +1,6 @@
 import { Box, Flex, Image, Link } from "@chakra-ui/react";
-import { IoMdMail } from "react-icons/io";
 import { H5 } from "./typography";
+import email from "./assets/email.svg";
 
 export default function Footer() {
   return (
@@ -16,7 +16,7 @@ export default function Footer() {
           as={Link}
           href="mailto:tasin0.net@gmail.com"
         >
-          <IoMdMail />
+          <Image src={email} width={"24px"} />
           <H5>tasin0.net@gmail.com</H5>
         </Box>
         <Box
