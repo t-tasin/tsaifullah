@@ -49,6 +49,16 @@ export default function App() {
           alignItems={"center"}
         >
           <Box width={"fit-content"} position={"relative"}>
+            <Box
+              borderRadius={"50%"}
+              bgColor={"gray.100"}
+              width={"50px"}
+              height={"50px"}
+              position={"absolute"}
+              top={0}
+              left={-10}
+              zIndex={-1}
+            />
             <Image src={ProPic} borderRadius="full" boxSize="220px" />
             <Box
               borderRadius={"50%"}
