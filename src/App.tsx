@@ -1,4 +1,4 @@
-import { Box, Flex, Image, chakra } from "@chakra-ui/react";
+import { Box, Flex, Image, chakra, Link } from "@chakra-ui/react";
 import { H1, H2, H4 } from "./typography";
 import ProPic from "./assets/propic.png";
 import SkillSection from "./skill";
@@ -7,6 +7,7 @@ import ProjectGYM from "./ProjectGYM";
 import ProjectFace from "./ProjectFace";
 import ProjectParking from "./ProjectParking";
 import ProjectPizza from "./ProjectPizza";
+import email from "./assets/email.svg";
 
 export default function App() {
   return (
@@ -14,12 +15,39 @@ export default function App() {
       <Flex width={{ base: "100%", lg: "600px" }} direction={"column"}>
         <Flex
           width={"100%"}
-          height={"100px"}
+          height={"fit-content"}
+          marginTop={6}
           //bgColor={"gray.100"}
-          justifyContent={"center"}
+          // justifyContent={"center"}
           alignItems={"center"}
         >
-          <H1 textAlign={"center"}>KM Khalid Saifullah</H1>
+          <Box width={{ base: "100%", lg: "70%" }}>
+            <H1 textAlign={{ base: "center", lg: "left" }}>
+              KM Khalid Saifullah
+            </H1>
+          </Box>
+          <Box
+            width={{ base: "0%", lg: "30%" }}
+            display={{ base: "none", lg: "block" }}
+          >
+            <Flex justifyContent={"flex-end"} gap={3} direction={"row"}>
+              <Link href="mailto:tasin0.net@gmail.com">
+                <Image src={email} width={"24px"} />
+              </Link>
+              <Link href="https://www.linkedin.com/in/k-tasin/">
+                <Image
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
+                  width={"24px"}
+                />
+              </Link>
+              <Link href="https://github.com/t-tasin">
+                <Image
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                  width={"24px"}
+                />
+              </Link>
+            </Flex>
+          </Box>
         </Flex>
         <Flex
           marginTop={{ base: 8, lg: 24 }}
