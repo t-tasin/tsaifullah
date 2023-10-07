@@ -35,10 +35,10 @@ export default function ProjectParking() {
             />
           </Center>
           <Stack>
-            <Heading size="md">AI GYM Trainer</Heading>
+            <Heading size="md">Live parking Availability Finder</Heading>
             <H6>
-              A real-time Python tool leveraging computer vision to track and
-              visualize exercise progress via webcam input.
+              Live Parking uses computer vision to monitor and display real-time
+              parking availability from a bird's-eye view.
             </H6>
             <Flex marginTop={3} wrap={"wrap"} gap={2.5}>
               <Box
@@ -133,9 +133,30 @@ export default function ProjectParking() {
                   gap={1}
                   my={0}
                 >
-                  <chakra.span>Mediapipe</chakra.span>
+                  <chakra.span>Pickle</chakra.span>
                 </H4>
               </Box>
+              <Box
+                bgColor={"gray.100"}
+                borderRadius={"5px"}
+                width={"fit-content"}
+                padding={1.5}
+              >
+                <H4
+                  display="flex"
+                  alignItems="center"
+                  textAlign="center"
+                  height="fit-content"
+                  fontSize={"12px"}
+                  lineHeight={"16px"}
+                  fontWeight={600}
+                  gap={1}
+                  my={0}
+                >
+                  <chakra.span>cvzone</chakra.span>
+                </H4>
+              </Box>
+
               <Box
                 bgColor={"gray.100"}
                 borderRadius={"5px"}
@@ -186,7 +207,7 @@ export default function ProjectParking() {
           <Button
             as={Link}
             width={"50%"}
-            href="https://github.com/t-tasin/AI-GYM-Trainer"
+            href="https://github.com/t-tasin/Live_Parking"
           >
             <H4
               display="flex"
@@ -218,22 +239,21 @@ export default function ProjectParking() {
                 />
               </Center>
               <ModalHeader>
-                AI GYM Trainer <H7>October 2022</H7>
+                Live parking Availability Finder <H7>October 2022</H7>
               </ModalHeader>
               <ModalCloseButton />
               <ModalBody>
                 <H6>
-                  Harnessing the power of computer vision and pose estimation,
-                  the AI-GYM Trainer is a dynamic Python application tailored to
-                  monitor exercise progress in real-time. Integrating OpenCV and
-                  Mediapipe, it processes live webcam footage, detecting body
-                  poses, calculating joint angles, and tracking repetitions –
-                  offering users an immediate visual on their workout
-                  performance. Its modular architecture, consisting of a video
-                  input processor and a pose detector, ensures efficient
-                  performance, while the adaptability of the framework enables
-                  tracking of varied exercises. Dive deeper into its workings or
-                  customize it further here.
+                  Live Parking is a Python application leveraging computer
+                  vision to track real-time parking availability. By processing
+                  bird's-eye view footage, the system identifies and visually
+                  displays occupied and available spaces. Comprising of two main
+                  components, one for analyzing video feed
+                  ("Parking_Available.py") and another for setting parking
+                  coordinates ("TrackParkingSpace.py"), it uses libraries such
+                  as OpenCV, cvzone, and NumPy for efficient operations. This
+                  tool serves as a valuable asset for efficient parking
+                  management.
                 </H6>
                 <H5 fontSize={"14px"} marginTop={3}>
                   Techstack:{" "}
@@ -331,7 +351,27 @@ export default function ProjectParking() {
                       gap={1}
                       my={0}
                     >
-                      <chakra.span>Mediapipe</chakra.span>
+                      <chakra.span>Pickle</chakra.span>
+                    </H4>
+                  </Box>
+                  <Box
+                    bgColor={"gray.100"}
+                    borderRadius={"5px"}
+                    width={"fit-content"}
+                    padding={1.5}
+                  >
+                    <H4
+                      display="flex"
+                      alignItems="center"
+                      textAlign="center"
+                      height="fit-content"
+                      fontSize={"12px"}
+                      lineHeight={"16px"}
+                      fontWeight={600}
+                      gap={1}
+                      my={0}
+                    >
+                      <chakra.span>cvzone</chakra.span>
                     </H4>
                   </Box>
                   <Box
@@ -375,7 +415,7 @@ export default function ProjectParking() {
                     </H4>
                   </Box>
                 </Flex>
-                <Link href="https://github.com/t-tasin/AI-GYM-Trainer">
+                <Link href="https://github.com/t-tasin/Live_Parking">
                   <Button width={"100%"}>
                     <H4
                       display="flex"

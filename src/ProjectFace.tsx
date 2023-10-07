@@ -35,10 +35,10 @@ export default function ProjectFace() {
             />
           </Center>
           <Stack>
-            <Heading size="md">Classroom Attendance System</Heading>
+            <Heading size="md">Automated Classroom Attendance System</Heading>
             <H6>
-              A real-time Python tool leveraging computer vision to track and
-              visualize exercise progress via webcam input.
+              An automated Python tool using face recognition to log student
+              attendance in real-time from video input.
             </H6>
             <Flex marginTop={3} wrap={"wrap"} gap={2.5}>
               <Box
@@ -167,7 +167,7 @@ export default function ProjectFace() {
           <Button
             as={Link}
             width={"50%"}
-            href="https://github.com/t-tasin/AI-GYM-Trainer"
+            href="https://github.com/t-tasin/Classroom_Attandance"
           >
             <H4
               display="flex"
@@ -199,7 +199,7 @@ export default function ProjectFace() {
                 />
               </Center>
               <ModalHeader>
-                Classroom Attendance System <H7>September 2022</H7>
+                Automated Classroom Attendance System <H7>September 2022</H7>
               </ModalHeader>
               <ModalCloseButton />
               <ModalBody>
@@ -333,7 +333,7 @@ export default function ProjectFace() {
                     </H4>
                   </Box>
                 </Flex>
-                <Link href="https://github.com/t-tasin/AI-GYM-Trainer">
+                <Link href="https://github.com/t-tasin/Classroom_Attandance">
                   <Button width={"100%"}>
                     <H4
                       display="flex"
