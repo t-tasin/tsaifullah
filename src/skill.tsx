@@ -815,7 +815,7 @@ export default function Skill() {
             my={0}
           >
             <Image src={tableau} width={"24px"} height={"auto"} />
-            <chakra.span>Jojo</chakra.span>
+            <chakra.span>Tableau</chakra.span>
           </H4>
         </Box>
         <Box
