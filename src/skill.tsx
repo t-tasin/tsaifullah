@@ -426,7 +426,7 @@ export default function Skill() {
             my={0}
           >
             <Image
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
               width={"24px"}
               height={"auto"}
             />
@@ -633,7 +633,7 @@ export default function Skill() {
             <chakra.span>Git</chakra.span>
           </H4>
         </Box>
-        <Box
+        {/* <Box
           bgColor={"gray.100"}
           borderRadius={"5px"}
           width={"fit-content"}
@@ -732,7 +732,7 @@ export default function Skill() {
           >
             <chakra.span>Scikit-image</chakra.span>
           </H4>
-        </Box>
+        </Box> */}
       </Flex>
       <H4
         fontWeight={600}
